@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+
+
 /*jsmain.js */
 
 var jsonObj;
@@ -71,7 +72,7 @@ function printJSONTable(jsonObj) {
 }
 }
 }
-=======
+
 /*jsmain.js */
 
 var jsonObj;
@@ -144,4 +145,3 @@ function printJSONTable(jsonObj) {
 }
 }
 }
->>>>>>> 3dd07909d51e36c1a394b4a6c15317e60f3d3cbb
