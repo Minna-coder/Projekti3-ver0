@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<title>Kiekko kattilassa</title> 
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+<style>
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+
+<header>
+  <h2>Kiekko kattilassa</h2>
+</header>
+
+<div class="navbar">
+  <a href="index2.html">Reseptit</a>
+  <a href="#news">Tilastot</a>
+  <a href="galleria.html">Kuvagalleria</a>
+  <div class="dropdown">
+    <button class="dropbtn">Linkkilaatikko 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://www.finhockey.fi">Suomen jääkiekkoliitto</a>
+      <a href="http://www.tilastopalvelu.fi/ih/beta/tilastointi/index.php/etsi?sstsbseason=2020&sstsblevel=94&sstsbdistrict=&sstsbstatgroup=7896">Tulospalvelu</a>
+      <a href="https://kjthaukat05.nimenhuuto.com/">Nimenhuuto</a>
+    </div>
+  </div> 
+</div>
+
+<nav>
+<img src="kiekot5.jpg" alt="Ice-hockey"/>
+</nav>
+
+  <article>
+    <h1>Kokkailua ja kiekkoa</h1>
+    <p>Urheileva nuori tarvitsee monipuolista ja terveellistä ravintoa jaksaakseen harjoitella tavoitteellisesti.</p>
+<p>Tämän sivuston tarkoitus on tarjota vinkkejä paljon liikuntaa harrastavan perheen ravitsemuksellisiin haasteisiin ja koota samaan paikkaa mielenkiintoisia urheiluun ja hyvinvointiin liittyviä linkkejä, artikkeleita jne. Reseptit osiosta löytyy hyväksi havaittuja helppoja reseptejä. </p>
+
+<p>Kiekko kattilassa -sivustoa ylläpitää kiekkoperheen CEO ja reseptejä on jalkauttanut kokeilevan keittiön kautta käytäntöön perheen huoltopäällikkö.</p>
+
+ <p>Mukavaa, että ole löytänyt saitille. Let's cook the puck!</p>
+  </article>
+
+
+<footer>
+  <p>Minna Mikkola &copy;</p>
+</footer>
+
+</body>
+
+</html>
